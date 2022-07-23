@@ -1,0 +1,13 @@
+.profile__avatar-button{
+  background-image: url('../../../images/Karandash.png');
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  background-color: transparent;
+  left: 47px;
+  bottom: 47px;
+  cursor: pointer;
+  border: none;
+  opacity: 0;
+  transition: 0.2s ease;
+}

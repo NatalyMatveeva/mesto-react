@@ -1,0 +1,11 @@
+.popup-newcard__link::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c4c4c4;
+}
+
+.popup-newcard__link {
+  margin-top: 42px;
+}

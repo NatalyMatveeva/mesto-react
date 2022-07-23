@@ -1,0 +1,15 @@
+.card__subtitle {
+  background-color: white;
+  height: 79px;
+  position: relative;
+  top: -3px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-left: 21px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.popup-picture__img{
+  max-width: 75vh;
+  max-height: 75vh;
+}
+
+@media screen and (max-width: 772px) {
+  .popup-picture__img {
+    height: 55vh;
+    width: 55vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup-picture__img {
+    height: 40vh;
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .popup-picture__img {
+    height: 299px;
+    width: 240px;
+  }
+}

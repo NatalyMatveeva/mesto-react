@@ -1,0 +1,27 @@
+.popup__style {
+  display: block;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  width: 358px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0 0 13px;
+  margin-left: 36px;
+}
+
+@media screen and (max-width: 772px) {
+  .popup__style {
+    margin-left: 22px;
+    width: 338px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .popup__style {
+    width: 238px;
+  }
+}

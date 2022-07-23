@@ -1,0 +1,13 @@
+.popup-delete__window {
+  position: relative;
+  border-radius: 15px;
+  background-color: white;
+  height: 181px;
+  width: 430px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}

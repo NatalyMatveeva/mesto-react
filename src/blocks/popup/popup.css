@@ -1,0 +1,14 @@
+.popup {
+  position: fixed;
+  z-index: 100;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  opacity: 0;
+  display: flex;
+}

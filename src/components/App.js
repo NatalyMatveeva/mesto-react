@@ -32,7 +32,7 @@ function App() {
     setSelectedCard({});
   }
 
-  const [selectedCard, setSelectedCard] = React.useState([]);
+  const [selectedCard, setSelectedCard] = React.useState({});
 
   function handleCardClick(card) {
     setSelectedCard({ src: card.link, alt: card.name, opened: true });
@@ -105,12 +105,14 @@ function App() {
             <span className="link-error popup__button-error popup__error"></span>
           </PopupWithForm>
 
-          <PopupWithForm name="delete" title="Вы уверены?" buttonText="Да">
-            <form
+          <PopupWithForm 
+          name="delete" 
+          title="Вы уверены?"
+          buttonText="Да">
+            <div
               className="popup-delete__form form"
-              name="delete"
-              noValidate
-            ></form>
+              name="delete"              
+            ></div>
           </PopupWithForm>
 
           <PopupWithForm

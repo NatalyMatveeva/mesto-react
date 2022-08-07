@@ -85,8 +85,10 @@ export class Api {
     return fetch(`${this.url}/users/me/avatar`, {
       method: "PATCH",
       headers: this.headers,
-      body: JSON.stringify(data),
-    }).then(this._handleResponse);
+      body: JSON.stringify((data)
+      )
+
+    }).then((res) => this._handleResponse(res));
   }
 }
 

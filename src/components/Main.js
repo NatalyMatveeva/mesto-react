@@ -9,13 +9,15 @@ function Main(props) {
   return (
     <div className="content">
       <section className="profile">
+      
         <div className="profile__block-avatar">
-          <button className="profile__avatar-button" type="button"></button>
-          <img
-            onClick={props.onEditAvatar}
+          <button onClick={props.onEditAvatar} className="profile__avatar-button" type="button"></button>
+          <img  
+                 
             className="profile__avatar"
             src={currentUser.avatar}
             alt="Фото профиля"
+            
           />
         </div>
 

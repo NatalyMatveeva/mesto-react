@@ -42,11 +42,12 @@ function EditProfilePopup(props) {
       isOpen={props.isOpen}
       onClose={props.onClose}
       onSubmit={handleSubmit}
+      
     >
       <>
         <input
-          value={name}
-          onChange={handleChangeName}
+          value={name || ''}
+          onChange={handleChangeName}          
           type="text"
           id="firstname"
           name="name"
@@ -58,7 +59,7 @@ function EditProfilePopup(props) {
         <span className="firstname-error popup__top-error popup__error"></span>
 
         <input
-          value={description}
+          value={description || ''}
           onChange={handleChangeDescription}
           type="text"
           id="profession"

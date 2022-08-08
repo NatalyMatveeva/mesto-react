@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 15px;
   background-color: white;
-  height: 272px;
+  max-height: 272px;
   width: 430px;
   margin-top: auto;
   margin-bottom: auto;

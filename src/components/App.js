@@ -132,10 +132,9 @@ function App() {
   }
 
   return (
-    <>
+    
       <CurrentUserContext.Provider value={currentUser}>
-        <CardContext.Provider value={cards}>
-          <div className="page-area">
+            <div className="page-area">
             <div className="page">
               <Header />
 
@@ -174,11 +173,9 @@ function App() {
 
               <Footer />
             </div>
-          </div>
-        </CardContext.Provider>
+          </div>       
       </CurrentUserContext.Provider>
-    </>
-  );
+      );
 }
 
 export default App;

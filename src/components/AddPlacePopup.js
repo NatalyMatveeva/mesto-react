@@ -40,6 +40,7 @@ function AddPlacePopup(props) {
       <input
         onChange={handleNameSubmit}
         type="text"
+        value={name || ''} 
         id="nameplace"
         name="name"
         className="popup__style popup-newcard__nameplace"
@@ -52,6 +53,7 @@ function AddPlacePopup(props) {
       <input
         onChange={handleLinkSubmit}
         type="url"
+        value={link || ''}
         id="link"
         name="link"
         className="popup__style popup-newcard__link"

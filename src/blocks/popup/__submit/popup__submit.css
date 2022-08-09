@@ -1,8 +1,7 @@
 .popup__submit {
-  position: absolute;
-  bottom: 23px;
+  position: relative;  
   left: 36px;
-  /* margin: 20px auto 22px; */
+  margin-top: 48px;
   background: #000000;
   width: 358px;
   height: 50px;

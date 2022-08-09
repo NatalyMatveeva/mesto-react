@@ -42,7 +42,7 @@ function EditProfilePopup(props) {
       isOpen={props.isOpen}
       onClose={props.onClose}
       onSubmit={handleSubmit}
-      
+      classNamePopup = 'popup__window' 
     >
       <>
         <input
